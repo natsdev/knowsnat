@@ -1,0 +1,18 @@
+
+/* Etiqueta */
+p {
+    font-size: 30px;
+}
+
+/* Clase */
+.Parrafo {
+
+    color: blueviolet;
+}
+
+/* ID */
+#Paf {
+
+    color: cyan;
+
+}
