@@ -5,37 +5,28 @@
         <meta name="description" content="Esta pagina es sobre perritos" />
         <meta name="robots" content="index,follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title> Aquí comienza la historia</title>
+        <title> Select</title>
         <link rel="stylesheet" href="./css/style.css">        
 
     </head>
     <body>
         <main>
-            <form action="">
+            <!-- <select name="Cursos" id="">
+                <option value="JavaScript">JavaScript</option>
+                <option value="HTML5">HTML5</option>
+                <option value="CSS3">CSS3</option>
+                <option value="Web Standars">Web Standars</option>
+            </select> -->
 
-                <label for="Nombre">
-                    <span>¿Cuál es tu nombre?</span>
-                    <input type="text" name="Nombre" id="Nombre" autocomplete="name" required/>
-                </label>
+            <!-- Buenas practicas -->
 
-                <label for="Correo">
-                    <span>¿Cuál es tu correo?</span>
-                    <input type="email" name="Correo" id="Correo" autocomplete="email" required/>
-                </label>
-
-                <label for="Pais">
-                    <span>¿De qué país eres?</span>
-                    <input type="text" name="Pais" id="Pais" autocomplete="country"  required/>
-                </label>
-
-                <label for="CP">
-                    <span>¿Cuál es tu código postal?</span>
-                    <input type="text" name="CP" id="CP" autocomplete="postal-code" required/>
-                </label>
-
-                <input type="submit">
-
-            </form>
+            <input list="Cursos">
+            <datalist id="Cursos">
+                <option value="JavaScript"></option>
+                <option value="HTML5"></option>
+                <option value="CSS3"></option>
+                <option value="Web Standars"></option>
+            </datalist>
         </main>
 
     </body>
