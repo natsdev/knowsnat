@@ -10,39 +10,33 @@
 
     </head>
     <body>
+        <main>
+            <form action="">
 
-        <!-- <form action="">
-            <label for="hora">
+                <label for="Nombre">
+                    <span>¿Cuál es tu nombre?</span>
+                    <input type="text" name="Nombre" id="Nombre" autocomplete="name" required/>
+                </label>
 
-                <span>Hora</span>
-                <input type="time" name="hora" id="hora" />
-            </label>
-       
-            <label for="dia">
-                <span>Dia</span>
-                <input type="date" name="dia" id="dia" />
-            </label>
+                <label for="Correo">
+                    <span>¿Cuál es tu correo?</span>
+                    <input type="email" name="Correo" id="Correo" autocomplete="email" required/>
+                </label>
 
-            <label for="semana">
-                <span>Semana</span>
-                <input type="week" name="semana" id="semana" />
-            </label>
+                <label for="Pais">
+                    <span>¿De qué país eres?</span>
+                    <input type="text" name="Pais" id="Pais" autocomplete="country"  required/>
+                </label>
 
-            <label for="mes">
-                <span>Mes</span>
-                <input type="month" name="mes" id="mes" />
-            </label>
-            
-            <input type="submit" />
-        </form> -->
+                <label for="CP">
+                    <span>¿Cuál es tu código postal?</span>
+                    <input type="text" name="CP" id="CP" autocomplete="postal-code" required/>
+                </label>
 
-        <form action="">
-            <label for="calendario">
-                <span>Calendario</span>
-                <input type="datetime-local" id="calendario" name="calendario">
-            </label>
-            <input type="submit">
-        </form>
+                <input type="submit">
+
+            </form>
+        </main>
 
     </body>
 </html>
