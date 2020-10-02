@@ -1,42 +1,19 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-h1{
-    font-family: serif;
 
+main{
+    background-color: rgb(230, 247, 243);
+    /* Es el ancho y alto respecto al viewport */
+    width: 100vw;
+    height: 100vh;
 }
 
-.title{
-    font-size: 18px;
-    font-family: Helvetica,  Arial, sans-serif;
-    Color: rgb(248, 238, 104);
-    margin-bottom: 10px;
-}
+div{
 
-.nav{
-    margin-top: 10px;
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.nav li{
-
-    display: inline-block;
-    text-decoration: none;
-}
-
-.nav a{
-
-    background-color: rgb(255, 218, 224);
-    color: rgb(97, 59, 21);
-    border-radius: 6px;
-    text-decoration: none;
-    padding: 5px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.nav .blog{
-    background-color: mediumaquamarine;
+    background-color: lightcoral;
+    margin: 0 auto;
+    width: 80%;
+    /* Medias maximas y minimas que puede alcanzar el contenedor */
+    min-width: 320px;
+    max-width: 500px;
+    /* Para evitar problemas de overflow se define la altura mínima */
+    min-height: 50px;
 }
