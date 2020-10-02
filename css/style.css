@@ -1,11 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 h1{
-    /* Usar el valor del padre */
-    font-size: initial;
+    font-family: serif;
 
-    /* Predefinido por el navegador */
-    font-size: initial;
+}
 
-    Tratará de heredar el valor si esta disponible
-    /* sino tomará el predefinido por el navegador */
-    font-size: unset; 
+#page-title{
+    font-family: Helvetica,  Arial, sans-serif;
+    Color: rgb(248, 238, 104);
+    margin-bottom: 10px;
+}
+.title{
+    font-size: 18px;
+    font-family: monospace;
+}
+
+#main-nav{
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#main-nav li{
+
+    display: inline-block;
+    text-decoration: none;
+}
+
+#main-nav a{
+
+    background-color: rgb(255, 218, 224);
+    color: rgb(97, 59, 21);
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#main-nav .blog{
+    background-color: mediumaquamarine;
 }
