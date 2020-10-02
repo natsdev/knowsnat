@@ -8,29 +8,26 @@ h1{
 
 }
 
-#page-title{
+.title{
+    font-size: 18px;
     font-family: Helvetica,  Arial, sans-serif;
     Color: rgb(248, 238, 104);
     margin-bottom: 10px;
 }
-.title{
-    font-size: 18px;
-    font-family: monospace;
-}
 
-#main-nav{
+.nav{
     margin-top: 10px;
     list-style-type: none;
     padding-left: 0;
 }
 
-#main-nav li{
+.nav li{
 
     display: inline-block;
     text-decoration: none;
 }
 
-#main-nav a{
+.nav a{
 
     background-color: rgb(255, 218, 224);
     color: rgb(97, 59, 21);
@@ -40,6 +37,6 @@ h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#main-nav .blog{
+.nav .blog{
     background-color: mediumaquamarine;
 }
