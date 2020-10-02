@@ -1,17 +1,11 @@
-*{
-    /* Integra los espacios de borde y padding en el espacio del width */
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
+h1{
+    /* Usar el valor del padre */
+    font-size: initial;
 
-main{
-    width: 100%;
-    height: 500px;
-    border: 10px solid gray;
-    padding: 20px 35px;
-}
-p{
-    border: 10px solid gray;
-    padding: 10px;
+    /* Predefinido por el navegador */
+    font-size: initial;
+
+    Tratará de heredar el valor si esta disponible
+    /* sino tomará el predefinido por el navegador */
+    font-size: unset; 
 }
