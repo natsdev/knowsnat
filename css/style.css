@@ -4,20 +4,9 @@
     padding: 0;  
 }
 
-.padre{
-    border: 2px black dotted;
-    display: inline-block;
-}
-
-.box{
-    display: inline-block;
+.block-element{
     background-color: lightpink;
-    width: 100px;
-    height: 100px;
-
+    padding: 20px;
+    margin: 10px;
 }
 
-#two{
-    background-color: lightseagreen;
-    position: absolute;
-}
