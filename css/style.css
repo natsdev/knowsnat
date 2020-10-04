@@ -1,19 +1,23 @@
-
-main{
-    background-color: rgb(230, 247, 243);
-    /* Es el ancho y alto respecto al viewport */
-    width: 100vw;
-    height: 100vh;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
 }
 
-div{
+.padre{
+    border: 2px black dotted;
+    display: inline-block;
+}
 
-    background-color: lightcoral;
-    margin: 0 auto;
-    width: 80%;
-    /* Medias maximas y minimas que puede alcanzar el contenedor */
-    min-width: 320px;
-    max-width: 500px;
-    /* Para evitar problemas de overflow se define la altura mínima */
-    min-height: 50px;
+.box{
+    display: inline-block;
+    background-color: lightpink;
+    width: 100px;
+    height: 100px;
+
+}
+
+#two{
+    background-color: lightseagreen;
+    position: absolute;
 }
