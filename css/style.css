@@ -3,10 +3,59 @@
     margin: 0;
     padding: 0;  
 }
-
-.block-element{
-    background-color: lightpink;
-    padding: 20px;
-    margin: 10px;
+html{
+    font-size: 62.5%;
 }
 
+header{
+    background-color: rgb(255, 255, 255);
+  
+    position: relative;
+    width: 100vw;
+    height: 100px;
+}
+.header_nav{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 40%;
+    margin: 1%;
+    
+}
+.header_nav li{
+    display: inline-block;
+    margin: 10px;
+
+
+}
+
+img{
+    width: 50px;
+}
+.header_nav a{
+    text-decoration: none;
+    color: rgb(252, 115, 133);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8rem;
+    padding: 0 5px;
+
+}
+
+.aside{
+    background-color: rgb(255, 231, 252);  
+    width: 10%;
+    min-width: 120px;
+    height: 1000px;
+    padding: 1%;
+}
+
+ .aside_div{
+
+    width: 100%;
+    height: 11%;
+    background-color: white;
+    border-radius: 100%;
+    display: block;
+    margin-top: 10px;
+
+}
