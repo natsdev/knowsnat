@@ -28,10 +28,22 @@ header{
 
 
 }
+.header_logo{
 
-img{
-    width: 50px;
+    width: 6%;
+    height: 80%;
+    position: absolute;
+    background-color: white;
+    background-image: url(../images/logo.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 100%;
+    margin: 1%;
+
+    left: 5%;
+   
 }
+
 .header_nav a{
     text-decoration: none;
     color: rgb(252, 115, 133);
@@ -43,6 +55,7 @@ img{
 
 .aside{
     background-color: rgb(255, 231, 252);  
+ 
     width: 10%;
     min-width: 120px;
     height: 1000px;
@@ -58,4 +71,30 @@ img{
     display: block;
     margin-top: 10px;
 
+}
+
+.aside_div.quien_soy{
+    background-repeat: no-repeat;
+    background-image: url(../images/actualmente.jpg);
+    background-size: cover;
+    background-position: 50% 20%;
+}
+
+.aside_div.hobbie{
+    background-repeat: no-repeat;
+    background-image: url(../images/Soy.jpg);
+    background-size: cover;
+    background-position: 100% 20%;
+
+}.aside_div.donde_voy{
+    background-repeat: no-repeat;
+    background-image: url(../images/sueño.jpg);
+    background-size: cover;
+    background-position: 50% 30%;
+
+}.aside_div.forma_vivir{
+    background-repeat: no-repeat;
+    background-image: url(../images/Crecido.jpg);
+    background-size: cover;
+    background-position: 50% 75%;
 }
