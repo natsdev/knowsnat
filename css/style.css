@@ -3,12 +3,18 @@
     margin: 0;
     padding: 0;  
 }
+
+:root{
+    --primary-color:rgb(255, 231, 252);
+    --secundary-color:  rgb(185, 162, 233);
+    --font:  1.6rem;
+}
 html{
     font-size: 62.5%;
 }
 
 header{
-    background-color: rgb(255, 231, 252);
+    background-color: var(--primary-color);
   
     position: relative;
     width: 100vw;
@@ -17,7 +23,7 @@ header{
 
 .header_logo{
 
-    width: 6%;
+    width: 80px;
     height: 80%;
     position: absolute;
     background-color: white;
@@ -37,13 +43,15 @@ header{
     right: 0;
     bottom: 0;
     margin: 1% 2%;
+    width: auto;
     
 }
 
 
 .header_nav li{
     display: inline-block;
-    margin: 10px;
+    position: relative;
+    margin: 0 10px;
 
 
 }
@@ -56,7 +64,28 @@ header{
     font-size: 1.8rem;
     padding: 0 5px;
 
+
 }
+
+.header_nav li .buscar{
+    border-radius: 10px;
+    background-color: rgb(252, 221, 241) ;
+}
+
+.buscar img{
+
+    width: 15px;
+    height: 15px;
+
+}
+.login img{ 
+    
+    width: 20px;
+    height: 20px;
+    
+}
+
+
 
 .aside{
     background-color: rgb(255, 255, 255);  
@@ -119,7 +148,7 @@ header{
 
     width: 100vw;
     height: 90px;
-    background-color: rgb(185, 162, 233);
+    background-color: var(--secundary-color);
 }
 
 .social_media{
