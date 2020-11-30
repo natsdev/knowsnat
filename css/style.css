@@ -90,12 +90,41 @@ header{
 .container{
     width: 100vw;
     height: 70vh;
-    background-color: mediumorchid;
+    background-color: white;
+    display: flex;
 }
 
-.container_overview{
+.container_title{
     position: relative;
-    background-color: mediumseagreen;
+    top: 0;
+    background-color: white;
+    font-family:'Manjari', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    display: block;
+    width: auto;
+    height: fit-content;
+    position: relative;
+    order: 3;
+    /* border: 0.3rem solid gray; */
+
+}
+.container_intro{
+    position: relative;
+    font-family:'Manjari', sans-serif;
+    color: rgb(67, 74, 80);
+    font-size: 1.8rem;
+    width: 90vw;
+    position: relative;
+    background-color: white;
+    order: 2;
+    margin: 0 0.5%;
+    /* border: 0.3rem solid gray; */
+}
+
+.container_presentation{
+
+    margin: 1% 0;
 }
 
 /*-------------------------------------------- aside ------------------------------------------------- */
