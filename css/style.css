@@ -95,14 +95,44 @@ header{
 
 /*-------------------------------------------- main ------------------------------------------------- */
 
-.container{
+.main_container{
     width: 100vw;
     height: 70vh;
     background-color: white;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2%;
+    /* background-color: maroon; */
 }
 
-.container_title{
+.main_content{
+
+    display: flex;
+    flex-direction: column;
+    /* background-color: yellowgreen; */
+    height: 100vh;
+
+}
+.main_content.intro{
+
+    background-color: white;
+
+    position: relative;
+    width: 50vw;
+    height: 40vh;
+    order: 2;
+
+
+    font-family:'Manjari', sans-serif;
+    color: rgb(67, 74, 80);
+    font-size: 1.8rem;
+
+
+    /* border: 0.3rem solid gray; */
+}
+
+.main_content_title{
     background-color: white;
 
     font-family:'Manjari', sans-serif;
@@ -113,73 +143,120 @@ header{
     width: auto;
     height: fit-content;
     position: relative;
-    top: 5%;
-    order: 3;
+    top: 7%;
+    order: 1;
 
     margin: 1% 0;
     /* border: 0.3rem solid gray; */
 
 }
-.container_intro{
+
+
+.main_content_presentation{
     position: relative;
-    font-family:'Manjari', sans-serif;
-    color: rgb(67, 74, 80);
-    font-size: 1.8rem;
-    width: 90vw;
-    position: relative;
-    background-color: white;
+    top: 17%;
+    margin: 1% 0;
     order: 2;
-    margin: 0 0.5%;
-    /* border: 0.3rem solid gray; */
 }
 
-.container_presentation{
-    position: relative;
-    top: 10%;
-    margin: 1% 0;
-}
 
-/*-------------------------------------------- aside ------------------------------------------------- */
-.aside{
+.main_content.listknowme{
     background-color: rgb(255, 255, 255);  
+
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 12vw;
+
+    width: 50vw;
     min-width: 120px;
-    height: 70vh;
+    height: 30vh;
+
+    order: 2;
+
+    /* border: 0.3rem solid gray; */
+
 }
 
- .aside_div{
+ .listknowme_box{
 
     background-repeat: no-repeat;
     background-size: cover;
     background-color: white;
-    border-radius: 25px;
+    border-radius: 20px;
     width: 120px;
     height: 90px;
     display: block;
 
 }
 
-.aside_div.quien_soy{
+.listknowme_box.quien_soy{
     background-image: url(https://imgur.com/cuMYsJn.jpg); 
     background-position: 50% 20%;
 }
 
-.aside_div.hobbie{
+.listknowme_box.hobbie{
     background-image: url(https://imgur.com/AVrqhhV.jpg);
     background-position: 100% 20%;
 
-}.aside_div.donde_voy{
+}.listknowme_box.donde_voy{
     background-image: url(https://imgur.com/hJYpUkN.jpg);
     background-position: 50% 30%;
 
-}.aside_div.forma_vivir{
+}.listknowme_box.forma_vivir{
     background-image: url(https://imgur.com/NAYVpZw.jpg);
     background-position: 50% 75%;
+}
+/*-------------------------------------------- aside ------------------------------------------------- */
+.container_natsdev{
+
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50vw;
+    /* border: 0.5rem solid black; */
+    /* background-color: violet; */
+}
+
+.natsdev_image{
+
+    width: 20vw;
+    height: 50vh;
+    position: relative;
+
+    border-radius: 25px;
+    background-color: var(--primary-color);
+    background-image: url("https://imgur.com/kqISPeF.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 70%;
+    opacity: 0.4;
+}
+
+
+.natsdev_box{
+
+  
+    width: 19vw;
+    height: 47vh;
+    position: absolute;
+
+    border-radius: 25px;
+    background-color: white;
+
+    opacity: 0.4;
+}
+
+.natsdev_name{
+    color: var(--font-color);
+    font-size: 7rem;
+    font-weight: 900;
+    font-family: var(--font-letter);
+    position: absolute;
+    text-align: center;
+
 }
 
 /*-------------------------------------------- footer ------------------------------------------------- */
