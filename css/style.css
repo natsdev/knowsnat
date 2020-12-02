@@ -276,7 +276,7 @@ header{
 }
 
 .gratitude{
-    color: var(--dark-purple-color);
+    color:  rgb(103, 81, 146);
     font-size: 2rem;
     font-weight: 900;
     font-family: monospace;
