@@ -18,6 +18,7 @@ html{
     font-size: 62.5%;
 }
 
+
 /*-------------------------------------------- header ------------------------------------------------- */
 header{
     background-color: var(--primary-color);
@@ -183,6 +184,7 @@ header{
 
 .main_content_presentation{
     position: relative;
+    text-align: justify;
 
     top: 17%;
     margin: 2% 0;
@@ -195,19 +197,20 @@ header{
 
     position: relative;
     display: flex;
-    flex-direction: row;
+ 
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
 
     width: 70%;
     min-width: 120px;
-    height: 40vh;
+    height: min-content;
 
     order: 3;
     margin: 2% 0;
+    padding: 1% 0;
 
-    border: 0.3rem solid gray;
+    /* border: 0.3rem solid gray; */
 
 }
 
@@ -220,6 +223,7 @@ header{
     width: 120px;
     height: 90px;
     display: block;
+    margin: 1%;
 
 }
 
@@ -300,14 +304,21 @@ header{
     background-color: var(--secundary-color); 
     background-image: linear-gradient(to bottom, #ffffff, #ece8fb, #dad1f6, #c9b9f0, #b9a2e9);
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
     width: 100vw;
     height: 90px;
+    /* border: 0.3rem solid gray; */
+
 }
 
 .aditional_inf{
-    position: absolute;
-    top: 15% ;
-    left: 2%;
+    position: relative;
+    order: 1;
+    height: 30%;
+    /* border: 0.3rem solid gray; */
 }
 
 .gratitude{
@@ -315,18 +326,23 @@ header{
     font-size: 2rem;
     font-weight: 900;
     font-family: monospace;
+
 }
 
+.contact{
+    width: 40%;
+}
 
-
-.social_media{
+.contact.social_media{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    position: absolute;
-    width: 180px;
+    position: relative;
+    width: 100%;
     top: 20%;
     right: 3%;
+
+    /* border: 00.3rem solid gray; */
 }
 
 .social_media li{
@@ -338,10 +354,12 @@ header{
 }
 
 .ig{
-    background-image: url(https://imgur.com/Zq6cbif.png);
+    background-image: url(https://imgur.com/4qZeRKH.png);
+    order: 2;
 }
 
 .github{
-    background-image: url(https://imgur.com/2QcRxf9.png);
+    background-image: url(https://imgur.com/GK04XFP.png);
+    order: 1;
  
 }
