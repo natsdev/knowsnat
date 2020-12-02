@@ -211,6 +211,8 @@ header{
     /* border: 0.3rem solid gray; */
 }
 
+
+
 .main_content.listknowme{
     background-color: rgb(255, 255, 255);  
 
@@ -221,7 +223,7 @@ header{
     justify-content: space-evenly;
     align-items: center;
 
-    width: 70%;
+    width: 90%;
     min-width: 120px;
     height: min-content;
 
@@ -239,7 +241,7 @@ header{
     background-size: cover;
     background-color: white;
     border-radius: 20px;
-    width: 120px;
+    width: 50%;
     height: 90px;
     display: block;
     margin: 1%;
@@ -261,7 +263,7 @@ header{
 
 }.listknowme_box.forma_vivir{
     background-image: url(https://imgur.com/NAYVpZw.jpg);
-    background-position: 50% 75%;
+    background-position: 50% 65%;
 }
 /*-------------------------------------------- aside ------------------------------------------------- */
 .container_natsdev{
