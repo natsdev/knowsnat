@@ -138,12 +138,13 @@ header{
     /* background-color: blueviolet; */
     height: fit-content;
     padding: 0 1%;
+    text-align: justify;
 
     /* border: 0.3rem solid gray; */
     order: 2;
 
 }
-.main_content.intro, .main_content.box1{
+.main_content.intro{
 
     background-color: white;
 
@@ -191,7 +192,24 @@ header{
     order: 2;
 }
 
+.main_content.box1{
 
+    background-color: white;
+
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    order: 2;
+    padding: 1% 3%;
+
+
+    font-family:'Manjari', sans-serif;
+    color: rgb(67, 74, 80);
+    font-size: 1.8rem;
+
+
+    /* border: 0.3rem solid gray; */
+}
 
 .main_content.listknowme{
     background-color: rgb(255, 255, 255);  
