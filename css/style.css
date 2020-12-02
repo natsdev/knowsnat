@@ -97,21 +97,27 @@ header{
 
 .main_container{
     width: 100vw;
-    height: 70vh;
+    height: fit-content;
     background-color: white;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    padding: 0 2%;
-    /* background-color: maroon; */
+    padding: 2% 2%;
+
+    /* background-color: plum; */
 }
 
 .main_content{
 
     display: flex;
     flex-direction: column;
-    /* background-color: yellowgreen; */
-    height: 100vh;
+    align-items: center;
+    /* background-color: blueviolet; */
+    height: fit-content;
+    padding: 0 1%;
+
+    /* border: 0.3rem solid gray; */
+    order: 2;
 
 }
 .main_content.intro{
@@ -119,9 +125,10 @@ header{
     background-color: white;
 
     position: relative;
-    width: 50vw;
-    height: 40vh;
+    width: 100vw;
+    height: fit-content;
     order: 2;
+    padding: 1%;
 
 
     font-family:'Manjari', sans-serif;
@@ -146,7 +153,7 @@ header{
     top: 7%;
     order: 1;
 
-    margin: 1% 0;
+    margin: 2% 0;
     /* border: 0.3rem solid gray; */
 
 }
@@ -154,8 +161,9 @@ header{
 
 .main_content_presentation{
     position: relative;
+
     top: 17%;
-    margin: 1% 0;
+    margin: 2% 0;
     order: 2;
 }
 
@@ -166,14 +174,16 @@ header{
     position: relative;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
 
-    width: 50vw;
+    width: 60vw;
     min-width: 120px;
-    height: 30vh;
+    height: 40vh;
 
-    order: 2;
+    order: 3;
+    margin: 2% 0;
 
     /* border: 0.3rem solid gray; */
 
@@ -215,14 +225,16 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 50vw;
+    width: 100vw;
+    margin: 4% 0;
+    order: 1;
     /* border: 0.5rem solid black; */
-    /* background-color: violet; */
+    /* background-color: mediumslateblue; */
 }
 
 .natsdev_image{
 
-    width: 20vw;
+    width: 50vw;
     height: 50vh;
     position: relative;
 
@@ -239,7 +251,7 @@ header{
 .natsdev_box{
 
   
-    width: 19vw;
+    width: 47vw;
     height: 47vh;
     position: absolute;
 
