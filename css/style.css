@@ -34,7 +34,7 @@ header{
 
     /* border: 0.5rem solid gray; */
 }
-.header_logo{
+.header__logo{
     
     height: 100px;
     width: 80%;
@@ -46,7 +46,7 @@ header{
 
 }
 
-.logo_image{
+.logo__image{
     background-color: white;
     background-image: url("https://imgur.com/kqISPeF.jpg");
     background-position: 50% 50%;
@@ -60,7 +60,7 @@ header{
  
        
 }
-.header_namepage{
+.header__namepage{
     top: 50%;
     color: var(--font-color);
     font-family: var(--font-letter);
@@ -69,7 +69,7 @@ header{
     height: 40px;
 
 }
-.header_nav{
+.header__nav{
     width: fit-content;
     height: 30px;
     display: flex;
@@ -77,7 +77,7 @@ header{
 
     /* border: 0.3rem solid gray; */
 }
-.header_nav.options{
+.header__nav.options{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -93,13 +93,13 @@ header{
 }
 
 
-.header_nav li{
+.header__nav li{
     list-style: none;
     padding: 1% 0 ;
 
 }
 
-.header_nav a{
+.header__nav a{
 
     text-decoration: none;
     color: rgb(103, 81, 146);
@@ -144,7 +144,7 @@ header{
     order: 2;
 
 }
-.main_content.intro{
+.main_content__intro{
 
     background-color: white;
 
@@ -163,7 +163,7 @@ header{
     /* border: 0.3rem solid gray; */
 }
 
-.main_content_title{
+.main_content__title{
     background-color: white;
 
     font-family:'Manjari', sans-serif;
@@ -183,7 +183,7 @@ header{
 }
 
 
-.main_content_presentation{
+.main_content__presentation{
     position: relative;
     text-align: justify;
 
@@ -192,7 +192,7 @@ header{
     order: 2;
 }
 
-.main_content.box1{
+.main_content__box1{
 
     background-color: white;
 
