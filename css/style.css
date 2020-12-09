@@ -304,11 +304,12 @@ header{
 
     width: 95%;
     height: 95%;
+    position: absolute;
 
     border-radius: 25px;
     background-color: white;
 
-    opacity: 0.4;
+    opacity: 0.3;
 
 }
 
@@ -320,6 +321,7 @@ header{
     position: absolute;
 
     text-align: center;
+    opacity: 1;
 
 
 
