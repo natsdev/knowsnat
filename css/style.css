@@ -396,37 +396,3 @@ header{
 
 
 
-@media (min-width: 600px){
-
-    .main_content{
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-evenly;
-        /* border: solid gray 0.3rem; */
-    }
-
-    .main_content__listknowme{
-        order: 4;
-    }
-    
-    .listknowme_box{
-        width: 40%;
-        margin: 4% 0;
-    }
-
-    .main_content__intro{
-
-     width: 55%;
-     order: 1;
-    }
-
-    .container_natsdev{
-        width: 45%;
-        order: 2;
-    }
-    
-    .main_content__overview{
-        order: 5;
-        margin: 4% 0;
-    }
-}   
