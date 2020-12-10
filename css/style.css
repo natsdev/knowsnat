@@ -272,11 +272,10 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 100vw;
     margin: 4% 0;
     order: 1;
     /* border: 0.5rem solid black; */
-    /* background-color: mediumslateblue; */
+
 }
 
 .natsdev_image{

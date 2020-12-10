@@ -17,7 +17,7 @@
     }
 
     .main_content__intro{
-
+    height: 60vh;
      width: 55%;
      order: 1;
     }
@@ -28,6 +28,7 @@
     }
     
     .main_content__overview{
+
         order: 5;
         margin: 4% 0;
     }
