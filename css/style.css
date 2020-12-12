@@ -43,7 +43,7 @@ header{
 .header__logo{
     
     height: 100px;
-    width: 70%;
+    width: 80%;
     display: flex;
     justify-content: space-evenly;
     position: relative;
@@ -202,13 +202,13 @@ header{
 .presentation__programing{
 
     background-image: url(https://imgur.com/LirY2od.jpg);
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: 200px;
 
     background-color: white;
     border-radius: 20px;
-    background-position: 45% 45%;
-    margin: 1%;
+    background-position: 50% 70%;
+    margin: 1.5%;
 
     order: 3;
 }
