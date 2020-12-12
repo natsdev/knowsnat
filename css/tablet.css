@@ -24,7 +24,6 @@
     }
 
     .main_content__intro{
-        height: 60vh;
          width: 55%;
          order: 2;
         }
@@ -55,6 +54,10 @@
     .container_natsdev{
         width: 45%;
         order: 1;
+    }
+    
+    .natsdev_image{
+        height: 50vh;
     }
 
     
