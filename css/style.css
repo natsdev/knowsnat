@@ -199,6 +199,20 @@ header{
     order: 2;
 }
 
+.presentation__programing{
+
+    background-image: url(https://imgur.com/LirY2od.jpg);
+    width: 400px;
+    height: 300px;
+
+    background-color: white;
+    border-radius: 20px;
+    background-position: 45% 45%;
+    margin: 1%;
+
+    order: 3;
+}
+
 .main_content__overview{
 
     background-color: white;
@@ -206,7 +220,7 @@ header{
     position: relative;
     width: 100%;
     height: fit-content;
-    order: 2;
+    order: 4;
     padding: 1% 3%;
 
 
@@ -234,7 +248,7 @@ header{
     min-width: 120px;
     height: min-content;
 
-    order: 3;
+    order: 5;
     margin: 2% 0;
     padding: 1% 0;
 
