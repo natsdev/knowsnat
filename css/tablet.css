@@ -1,5 +1,23 @@
 @media (min-width: 600px){
 
+    .header{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .header__logo{
+        width: 45%;
+    }
+
+    .header__namepage{
+
+        left: 0;
+    }
+
+    .header__nav{
+
+    }
+
     .main_content{
         flex-wrap: wrap;
         flex-direction: row;
@@ -12,24 +30,28 @@
     }
     
     .listknowme_box{
-        width: 40%;
+        width: 45%;
         margin: 4% 0;
     }
 
     .main_content__intro{
     height: 60vh;
      width: 55%;
-     order: 1;
+     order: 2;
     }
 
     .container_natsdev{
         width: 45%;
-        order: 2;
+        order: 1;
     }
     
     .main_content__overview{
 
         order: 5;
         margin: 4% 0;
+    }
+
+    .footer{
+        flex-direction: column;
     }
 }   

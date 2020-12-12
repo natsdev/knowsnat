@@ -18,6 +18,10 @@ html{
     font-size: 62.5%;
 }
 
+body{
+    /* border: solid gray 0.3rem; */
+}
+
 
 /*-------------------------------------------- header ------------------------------------------------- */
 header{
@@ -29,7 +33,9 @@ header{
     flex-wrap: wrap;
     justify-content: space-evenly;
 
-    width: 100vw;
+    align-items: center;
+
+    width: 100%;
     height: 25vh;
 
     /* border: 0.5rem solid gray; */
@@ -37,7 +43,7 @@ header{
 .header__logo{
     
     height: 100px;
-    width: 80%;
+    width: 60%;
     display: flex;
     justify-content: space-evenly;
     position: relative;
@@ -53,9 +59,8 @@ header{
     background-size: cover;
     border-radius: 25%;
     position: relative;
-    width: 80px;
+    min-width: 80px;
     height: 85%;
-     left: 2%;
     top: 10%;
  
        
@@ -70,10 +75,12 @@ header{
 
 }
 .header__nav{
+    position: relative;
     width: fit-content;
     height: 30px;
     display: flex;
     align-items: center;
+
 
     /* border: 0.3rem solid gray; */
 }
@@ -119,7 +126,7 @@ header{
 /*-------------------------------------------- main ------------------------------------------------- */
 
 .main_container{
-    width: 100vw;
+    width: 100%;
     height: fit-content;
     background-color: white;
     display: flex;
@@ -127,7 +134,7 @@ header{
     justify-content: space-between;
     padding: 2% 2%;
 
-    /* background-color: plum; */
+    /* border: solid gray 0.3rem; */
 }
 
 .main_content{
@@ -152,7 +159,7 @@ header{
     width: 100%;
     height: fit-content;
     order: 2;
-    padding: 1% 3%;
+    padding: 1% 2.5%;
 
 
     font-family:'Manjari', sans-serif;
@@ -268,6 +275,7 @@ header{
 /*-------------------------------------------- aside ------------------------------------------------- */
 .container_natsdev{
 
+    width: 100%;
     position: relative;
     display: flex;
     justify-content: space-evenly;
@@ -337,7 +345,7 @@ header{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    width: 100vw;
+    width: 100%;
     height: 90px;
     /* border: 0.3rem solid gray; */
 
