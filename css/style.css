@@ -84,7 +84,7 @@ header{
 
     /* border: 0.3rem solid gray; */
 }
-.header__nav.options{
+.header__nav_options{
     display: flex;
     justify-content: space-evenly;
     align-items: center;

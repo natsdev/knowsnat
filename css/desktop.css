@@ -4,12 +4,13 @@
     .header{
         flex-direction: row;
         justify-content: unset;
+        /* border: solid gray 0.3rem; */
     }
 
     .header__logo{
         width: 26%;
-        left: 2.5%;
-        top: 0%;
+        left: 5%;
+        bottom: 5%;
     }
     
     .logo__image{
@@ -26,10 +27,12 @@
     .header__nav{
     
        top: 18%;
-       left: 25%;
-       width: 37%;
-       font-size: 2rem;
-    }
+        left: 30%;
+       width: 40%;
+    
+    }  
+   
+    
 
     .main_content{
         flex-wrap: wrap;
@@ -79,6 +82,20 @@
     .main_content__overview{
         order: 3;
         margin: 2% 0;
+    }
+
+    .footer{
+        flex-direction: row;
+    }
+    .aditional_inf{
+
+        order: 1;
+    }
+    .contact{
+        /* border: solid gray 0.3rem; */
+        width: 15%;
+        order: 2;
+        left: 85%;
     }
 
 }
