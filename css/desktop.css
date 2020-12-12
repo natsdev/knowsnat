@@ -50,14 +50,15 @@
 
     .presentation__programing{
         order: 4;
-        width: 35%;
+        width: 30%;
         height: 225px;
-        background-position: 40% 55%;
+        background-position: 40% 63%;
         }
 
     .main_content__overview{
         order: 3;
         margin: 2% 0;
+        width: 65%;
     }
 
     .main_content__listknowme{
